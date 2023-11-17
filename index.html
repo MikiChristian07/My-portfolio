@@ -22,12 +22,78 @@
     <body>
         <div class="container-fluid px-0">
             <!--Navbar start-->
-            <nav class="navbar navbar-expand-lg navbar">
-                
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <span class="material-icons-outlined me-1">important_devices</span>
+                        Chris Developer
+                    </a>
+                    <button
+                        type="button"
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="container px-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contacts">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
             <!--Navbar end-->
 
             <!--Hero start-->
+            <header class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5">
+                                <h2 class="text-center fw-bold mb-2">Hey, it's Christian</h2>
+                                <h2 class="text-primary text-center fw-bold mb-2">a full-stack web developer</h2>
+                                <p class="lead text-muted mb-4">
+                                    I specialize in building scalable web applications using React and NodeJs. 
+                                    Scroll down to see some of my projects...
+                                </p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                                    <a href="#about" class="btn btn-primary btn-large text-uppercase">
+                                        Learn More
+                                        <span class="material-icons-outlined ms-2">help</span>
+                                    </a>
+                                    <a href="#projects" class="btn btn-outline-primary btn-large text-uppercase">
+                                        View my Work
+                                        <span class="material-icons-outlined ms-2">manage_search</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 justify-content-center">
+                            <img src="images/me.jpg" alt=""  class="card-img-top rounded-circle my-5 mx-5" style="height:400px; width:350px">
+                        </div>
+                    </div>
+                </div>
+            </header>
             <!--Hero end-->
 
             <main>

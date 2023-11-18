@@ -13,6 +13,19 @@ body {
     font-size: 48px;;
 }
 
-img{
-    border-radius: 50%;
+.about > .material-icons-outlined {
+    font-size: 50px;
+}
+
+.card > img {
+    height: 250px;
+}
+
+.testimonials > img {
+    height: 50px;
+    width: 50px;
+}
+
+#map { 
+    height: 300px; 
 }

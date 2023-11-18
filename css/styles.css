@@ -29,3 +29,8 @@ body {
 #map { 
     height: 300px; 
 }
+
+.myImg{
+    height: 400px;
+    width: 500px;
+}
